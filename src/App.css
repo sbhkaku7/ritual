@@ -1,0 +1,29 @@
+.home-image{
+margin: 0 1.5rem; 
+display: flex;
+justify-content: center;
+background-image: url(./images/Home-Hero-Desktop.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 30rem;
+}
+
+.main-heading{
+  padding: 2rem 0rem 0;
+  font-weight: 700;
+  font-size: 4rem;
+  color:#142b6f;
+  display:flex;
+  flex-direction:column;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.main-button button{
+    background-color:#142b6f;
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    color:white;
+    font-weight: 700;
+    border-radius: 2rem;
+
+}

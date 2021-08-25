@@ -1,0 +1,49 @@
+.navbar-container{
+    width: 100%;
+    top:0;
+    left: 0;
+    position: fixed;
+    border-top:0.3rem solid #142b6f;
+    background-color: white;
+
+}
+.navbar-main{
+    font-size: 1rem;
+    line-height: 1.625rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    list-style-type: none;
+    margin: 0 5.5rem;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar-main div{
+display: flex;
+justify-content: space-between;
+width: 10rem;}
+
+.navbar-main a{
+    text-decoration: none;
+    padding: 0.8rem 0;
+    
+    color:#142b6f;
+    border-bottom: 0.3rem solid transparent;
+}
+.navbar-main a:hover{
+    transition: ease-in-out 0.3s;
+    border-bottom: 0.3rem solid rgb(255, 214, 0);
+
+}
+
+
+.navbar-main>ul ul{
+
+    margin: 0;
+    padding:0;
+    display: flex;
+    width: 8rem;
+    justify-content: space-between;
+}

@@ -1,0 +1,53 @@
+.card-container{    
+    height:10rem;
+    width:16.8rem;
+    background-size:cover;
+    background-repeat:no-repeat ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.offer{
+    background-color: white;
+    margin-bottom: 1rem;
+    width:2.5rem;
+    margin-left: 1rem;
+    font-size: 0.6rem;    
+    color:#142b6f;
+    padding: 0.5rem 0.2rem 0.5rem 1rem;
+    position: relative;
+    z-index: 1;
+}
+
+.offer:after {
+    width: 0;
+    height: 0;
+    border: 12.5px solid transparent;
+    position: absolute;
+    content: "";
+    border-top-color: white;
+    right: -0.8rem;
+    top: 0px;
+    border-left-color: white;
+  }
+  .offer:before {
+      width: 0;
+      height: 0;
+      border: 13px solid transparent;
+      position: absolute;
+      content: "";
+      border-bottom-color: white;
+      right: -0.8rem;
+      top: 0.9px;
+  }
+.card-style{
+    background-color:rgb(245, 245, 245);
+    width:"100%";
+    text-align: center;
+    padding: 0.6rem 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    color:#142b6f;
+
+}

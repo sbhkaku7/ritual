@@ -1,7 +1,6 @@
 import './App.css';
 import Navbar from './Navbar';
 import image from './images/Home-Hero-Desktop.jpg'
-import {Switch,Route} from "react-router-dom";
 import Card from './Card';
 import data from './data';
 

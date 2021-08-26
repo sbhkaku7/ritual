@@ -5,7 +5,7 @@ const Navbar=()=>{
 return (
 <div className="navbar-container">
 <nav className="navbar-main">
-    <a href="#" style={{width:"10rem"}}>Menu</a>
+    <div><a href="#" >Menu</a></div> 
     <a style={{fontSize:"1.6rem"}}>Ritual</a>
    
           <div><a href="#" style={{alignSelf:"flex-end"}}>Who We Are</a>

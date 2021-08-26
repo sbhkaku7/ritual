@@ -7,6 +7,7 @@
     background-color: white;
 
 }
+
 .navbar-main{
     font-size: 1rem;
     line-height: 1.625rem;
@@ -23,26 +24,27 @@
 .navbar-main div{
 display: flex;
 justify-content: space-between;
-width: 10rem;}
+width: 10rem;
+
+margin: 0;}
 
 .navbar-main a{
     text-decoration: none;
-    padding: 0.8rem 0;
+    padding: 0.89rem 0;
     color:#142b6f;
     border-bottom: 0.3rem solid transparent;
 }
+.ritual-logo:hover{
+    border-bottom: 0.3rem solid transparent !important;
+}
 .navbar-main a:hover{
     transition: ease-in-out 0.3s;
-    border-bottom: 0.3rem solid rgb(255, 214, 0);
+
+    border-bottom: 0.3rem solid rgb(255, 214, 0) ; 
 
 }
 
-
-.navbar-main>ul ul{
-
-    margin: 0;
-    padding:0;
+.cart-logo{
     display: flex;
-    width: 8rem;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
